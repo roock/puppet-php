@@ -22,7 +22,7 @@
 #
 class php::repo::debian(
   $location     = 'http://packages.dotdeb.org',
-  $release      = 'wheezy-php56',
+  $release      = 'jessie',
   $repos        = 'all',
   $include_src  = false,
   $key          = {
